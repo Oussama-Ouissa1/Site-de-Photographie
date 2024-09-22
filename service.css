@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #177c8a70;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    color: rgb(80, 71, 90);
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.service {
+    margin-top: 70px;
+}
+
+.nosService {
+    text-align: center;
+}
+
+.nosService h1 {
+    font-size: 50px;
+}
+
+.nosService p {
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(122, 122, 122);
+}
+
+
+.photoPortrait {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portrait h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.imgPortrait {
+    width: 100%;
+}
+
+.imagePortrait {
+    background-image: url(2148378553.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.Portrait p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(53, 53, 53);
+}
+
+
+
+
+
+
+.photoMariage {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mariage h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.imgMariage {
+    width: 100%;
+}
+
+.imageMariage {
+    background-image: url(8876.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.mariage p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(53, 53, 53);
+}
+
+
+
+.photoPaysage {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Paysage h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.imgPaysage {
+    width: 100%;
+}
+
+.imagePaysage {
+    background-image: url(1125.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.Paysage p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(53, 53, 53);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
